@@ -1,0 +1,16 @@
+sources:
+  - id: nvidia_8k
+    actor: NVIDIA
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&CIK=1045810&count=40"
+    sla_hours: 4
+
+  - id: asml_pr
+    actor: ASML
+    url: "https://www.asml.com/en/news/press-releases"
+    sla_hours: 12
+
+  - id: bis_fr_api            # ← dash aligns with the two above
+    actor: BIS                # ← four-space indent, like the others
+    url: "https://www.federalregister.gov/api/v1/documents.json?conditions[agency_ids]=451"
+    sla_hours: 24
+

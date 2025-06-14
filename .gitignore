@@ -1,0 +1,33 @@
+# ========================
+# Data, Assets, and Logs
+# ========================
+# Ignore the main data folder containing raw and processed files
+data/
+
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ========================
+# Environment
+# ========================
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+
+# ========================
+# Other
+# ========================
+# macOS specific files
+.DS_Store
