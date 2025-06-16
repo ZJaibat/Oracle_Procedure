@@ -1,0 +1,9 @@
+BIS_rule_pdf:
+  - action: restrict
+    object_re: "(?:export(?:s)?|shipment(?:s)?)"
+    target_re: "China|People’s Republic of China"
+
+SEC_8K:
+  - action: disclose
+    object_re: "export controls|supply constraint|demand slowdown"
+
